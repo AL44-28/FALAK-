@@ -1,0 +1,23 @@
+# Local development and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+
+# Local editor / operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Credentials and local outputs
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+
+# Local backups are retained in the downloadable project, not published.
+backups/
+source_backup/
