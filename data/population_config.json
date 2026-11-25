@@ -1,0 +1,336 @@
+{
+  "version": 2,
+  "seed": 20261122,
+  "rng": "NumPy PCG64; independent SeedSequence([seed, region_index, cluster_index]) streams",
+  "total_users": 100,
+  "region_counts": [
+    30,
+    25,
+    15,
+    20,
+    10
+  ],
+  "region_offsets": [
+    0,
+    30,
+    55,
+    70,
+    90
+  ],
+  "maximum_city_distance_km": 10.0,
+  "cluster_weights": [
+    9,
+    5,
+    4,
+    2
+  ],
+  "cluster_allocation": "Hamilton largest remainder; ties use ascending cluster index",
+  "distribution": "Truncated correlated Gaussian mixtures in local east/north distances; WGS84 geodesic direct placement; stationary height 0 m",
+  "source_of_cluster_parameters": "Means and covariance of the preceding synthetic users CSV, by cluster. These are user-cluster centers, not city-center estimates.",
+  "source_users_sha256": "13f18cbd88b0b8e3684a658e8c90e38d71e12f832f87b31fcee63987327ce42c",
+  "city_reference_file": "cities_geonames.csv",
+  "city_reference_sha256": "f58f9f3cc9d30bae3f9fa0926058f906c4cb6bc4bbf7fe178516c2a6e7696bbb",
+  "csv_columns": [
+    "user_id",
+    "city",
+    "city_ar",
+    "latitude_deg",
+    "longitude_deg",
+    "wgs84_ellipsoid_height_m",
+    "height_kind",
+    "distance_from_geonames_city_km",
+    "cluster_id",
+    "point_type",
+    "observed_subscriber",
+    "building_or_road_verified",
+    "source_of_city_center",
+    "seed"
+  ],
+  "regions": [
+    {
+      "name": "Riyadh",
+      "user_count": 30,
+      "user_offset": 0,
+      "first_user_id": 1,
+      "city_latitude_deg": 24.68773,
+      "city_longitude_deg": 46.72185,
+      "cluster_counts": [
+        14,
+        7,
+        6,
+        3
+      ],
+      "clusters": [
+        {
+          "id": "RIYADH-C1",
+          "weight": 9,
+          "east_km": -0.252988112,
+          "north_km": -0.702306004,
+          "sigma_east_km": 1.406826169,
+          "sigma_north_km": 1.232527085,
+          "correlation": -0.268190349,
+          "reference_sample_count": 9
+        },
+        {
+          "id": "RIYADH-C2",
+          "weight": 5,
+          "east_km": -3.375211756,
+          "north_km": 3.518066308,
+          "sigma_east_km": 0.939495442,
+          "sigma_north_km": 1.377209364,
+          "correlation": 0.261750886,
+          "reference_sample_count": 5
+        },
+        {
+          "id": "RIYADH-C3",
+          "weight": 4,
+          "east_km": 4.835010879,
+          "north_km": 2.355249096,
+          "sigma_east_km": 0.886041518,
+          "sigma_north_km": 1.75,
+          "correlation": -0.75,
+          "reference_sample_count": 4
+        },
+        {
+          "id": "RIYADH-C4",
+          "weight": 2,
+          "east_km": -2.076631156,
+          "north_km": -4.585442212,
+          "sigma_east_km": 0.382820414,
+          "sigma_north_km": 0.3,
+          "correlation": -0.048940003,
+          "reference_sample_count": 2
+        }
+      ]
+    },
+    {
+      "name": "Jeddah",
+      "user_count": 25,
+      "user_offset": 30,
+      "first_user_id": 31,
+      "city_latitude_deg": 21.49012,
+      "city_longitude_deg": 39.18624,
+      "cluster_counts": [
+        11,
+        6,
+        5,
+        3
+      ],
+      "clusters": [
+        {
+          "id": "JEDDAH-C1",
+          "weight": 9,
+          "east_km": 1.954185092,
+          "north_km": 0.067070244,
+          "sigma_east_km": 1.283474741,
+          "sigma_north_km": 1.14842872,
+          "correlation": -0.168909258,
+          "reference_sample_count": 9
+        },
+        {
+          "id": "JEDDAH-C2",
+          "weight": 5,
+          "east_km": 5.904266745,
+          "north_km": 4.049550569,
+          "sigma_east_km": 1.188711919,
+          "sigma_north_km": 1.523125819,
+          "correlation": -0.237239257,
+          "reference_sample_count": 5
+        },
+        {
+          "id": "JEDDAH-C3",
+          "weight": 4,
+          "east_km": 3.390658413,
+          "north_km": -3.375388179,
+          "sigma_east_km": 0.80842276,
+          "sigma_north_km": 1.566519876,
+          "correlation": -0.402989122,
+          "reference_sample_count": 4
+        },
+        {
+          "id": "JEDDAH-C4",
+          "weight": 2,
+          "east_km": 8.673320662,
+          "north_km": 0.230161157,
+          "sigma_east_km": 0.3,
+          "sigma_north_km": 0.428939072,
+          "correlation": -0.382708105,
+          "reference_sample_count": 2
+        }
+      ]
+    },
+    {
+      "name": "Madinah",
+      "user_count": 15,
+      "user_offset": 55,
+      "first_user_id": 56,
+      "city_latitude_deg": 24.46861,
+      "city_longitude_deg": 39.61417,
+      "cluster_counts": [
+        7,
+        4,
+        3,
+        1
+      ],
+      "clusters": [
+        {
+          "id": "MADINAH-C1",
+          "weight": 9,
+          "east_km": 0.158138566,
+          "north_km": -0.076436507,
+          "sigma_east_km": 1.079912365,
+          "sigma_north_km": 0.995276084,
+          "correlation": 0.530947817,
+          "reference_sample_count": 9
+        },
+        {
+          "id": "MADINAH-C2",
+          "weight": 5,
+          "east_km": -2.980960873,
+          "north_km": 2.173680557,
+          "sigma_east_km": 1.291131772,
+          "sigma_north_km": 0.487683956,
+          "correlation": 0.123839732,
+          "reference_sample_count": 5
+        },
+        {
+          "id": "MADINAH-C3",
+          "weight": 4,
+          "east_km": 3.497695014,
+          "north_km": 1.201875744,
+          "sigma_east_km": 0.42746411,
+          "sigma_north_km": 0.342484946,
+          "correlation": 0.454687568,
+          "reference_sample_count": 4
+        },
+        {
+          "id": "MADINAH-C4",
+          "weight": 2,
+          "east_km": 0.774302681,
+          "north_km": -2.959916142,
+          "sigma_east_km": 0.3,
+          "sigma_north_km": 0.3,
+          "correlation": 0.262312327,
+          "reference_sample_count": 2
+        }
+      ]
+    },
+    {
+      "name": "Dammam",
+      "user_count": 20,
+      "user_offset": 70,
+      "first_user_id": 71,
+      "city_latitude_deg": 26.43442,
+      "city_longitude_deg": 50.10326,
+      "cluster_counts": [
+        9,
+        5,
+        4,
+        2
+      ],
+      "clusters": [
+        {
+          "id": "DAMMAM-C1",
+          "weight": 9,
+          "east_km": -1.576553005,
+          "north_km": 0.033745743,
+          "sigma_east_km": 1.168116502,
+          "sigma_north_km": 1.149414041,
+          "correlation": -0.550463565,
+          "reference_sample_count": 9
+        },
+        {
+          "id": "DAMMAM-C2",
+          "weight": 5,
+          "east_km": -4.084037552,
+          "north_km": 2.893301237,
+          "sigma_east_km": 0.602823035,
+          "sigma_north_km": 0.592990561,
+          "correlation": -0.686488174,
+          "reference_sample_count": 5
+        },
+        {
+          "id": "DAMMAM-C3",
+          "weight": 4,
+          "east_km": -4.043388154,
+          "north_km": -3.430670088,
+          "sigma_east_km": 1.42047332,
+          "sigma_north_km": 0.785253761,
+          "correlation": -0.545164815,
+          "reference_sample_count": 4
+        },
+        {
+          "id": "DAMMAM-C4",
+          "weight": 2,
+          "east_km": -0.494959179,
+          "north_km": -2.107682438,
+          "sigma_east_km": 0.305645575,
+          "sigma_north_km": 0.3,
+          "correlation": 0.308422439,
+          "reference_sample_count": 2
+        }
+      ]
+    },
+    {
+      "name": "Abha",
+      "user_count": 10,
+      "user_offset": 90,
+      "first_user_id": 91,
+      "city_latitude_deg": 18.21639,
+      "city_longitude_deg": 42.50528,
+      "cluster_counts": [
+        5,
+        2,
+        2,
+        1
+      ],
+      "clusters": [
+        {
+          "id": "ABHA-C1",
+          "weight": 9,
+          "east_km": -0.19121099,
+          "north_km": 0.068756476,
+          "sigma_east_km": 0.69694959,
+          "sigma_north_km": 0.773189228,
+          "correlation": 0.474815183,
+          "reference_sample_count": 9
+        },
+        {
+          "id": "ABHA-C2",
+          "weight": 5,
+          "east_km": -2.063238625,
+          "north_km": 1.862137369,
+          "sigma_east_km": 0.463270763,
+          "sigma_north_km": 0.435028025,
+          "correlation": 0.628173497,
+          "reference_sample_count": 5
+        },
+        {
+          "id": "ABHA-C3",
+          "weight": 4,
+          "east_km": 1.872869153,
+          "north_km": 0.586955559,
+          "sigma_east_km": 0.617679874,
+          "sigma_north_km": 0.514867105,
+          "correlation": 0.538679612,
+          "reference_sample_count": 4
+        },
+        {
+          "id": "ABHA-C4",
+          "weight": 2,
+          "east_km": -0.37107541,
+          "north_km": -1.567828706,
+          "sigma_east_km": 0.3,
+          "sigma_north_km": 0.3,
+          "correlation": 0.567580609,
+          "reference_sample_count": 2
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Synthetic research users, not census or measured subscribers.",
+    "No building, road, land-use, shoreline or terrain validation.",
+    "City reference points are read unchanged from cities_geonames.csv."
+  ]
+}

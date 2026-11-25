@@ -1,0 +1,886 @@
+{
+  "schema_version": 2,
+  "design_name": "V2 separated three-satellite Saudi pass",
+  "scenario_start_utc": "2000-01-01T00:45:45Z",
+  "omm_epoch_utc": "2000-01-01T00:00:00.000000",
+  "satellite_count": 10,
+  "population_counts": [
+    30,
+    25,
+    15,
+    20,
+    10
+  ],
+  "regions": [
+    "Riyadh",
+    "Jeddah",
+    "Madinah",
+    "Dammam",
+    "Abha"
+  ],
+  "baseline_parameters": [
+    [
+      26.0,
+      105.0,
+      290.0
+    ],
+    [
+      26.0,
+      60.0,
+      20.0
+    ],
+    [
+      26.0,
+      90.0,
+      150.0
+    ],
+    [
+      26.0,
+      30.0,
+      310.0
+    ],
+    [
+      26.0,
+      90.0,
+      340.0
+    ],
+    [
+      26.0,
+      90.0,
+      30.0
+    ],
+    [
+      26.0,
+      45.0,
+      140.0
+    ],
+    [
+      26.0,
+      45.0,
+      290.0
+    ],
+    [
+      26.0,
+      105.0,
+      160.0
+    ],
+    [
+      26.0,
+      90.0,
+      310.0
+    ]
+  ],
+  "proposed_parameters": [
+    [
+      26.0,
+      105.0,
+      290.0
+    ],
+    [
+      26.0,
+      60.0,
+      20.0
+    ],
+    [
+      26.0,
+      90.0,
+      150.0
+    ],
+    [
+      26.0,
+      30.0,
+      317.0
+    ],
+    [
+      26.0,
+      90.0,
+      340.0
+    ],
+    [
+      26.0,
+      90.0,
+      30.0
+    ],
+    [
+      26.0,
+      45.0,
+      298.0
+    ],
+    [
+      26.0,
+      60.0,
+      279.0
+    ],
+    [
+      26.0,
+      105.0,
+      160.0
+    ],
+    [
+      26.0,
+      90.0,
+      310.0
+    ]
+  ],
+  "parameter_columns": [
+    "INCLINATION",
+    "RA_OF_ASC_NODE",
+    "MEAN_ANOMALY"
+  ],
+  "mean_motion_rev_day": 14.8,
+  "inclination_deg": 26,
+  "radio_settings_unchanged": true,
+  "recommended_initial_time_s": 0,
+  "users_sha256": "6557aa0cd8bf79cc9bf1788b80f81f4e652fb6b9ee1f6c9a2908b65321dafbe6",
+  "boundary_sha256": "6da7d302942b7941f344ffc328d4e14acd0736a67b4e3de5674010b45d91b0fa",
+  "search": {
+    "algorithm": "Bounded one-degree phase search over the five existing RAAN planes; three mutable slots [3,6,7], seven preserved satellites; preserve five planes; maximize common Saudi-polygon/all-city pass then sampled pair spacing. No global optimum claim.",
+    "search_pair_filter_km": 550,
+    "fine_audit_minimum_km": 500,
+    "individual_candidates": 62,
+    "search_opening_s": 2800,
+    "coarse_joint_window_original_epoch_s": [
+      2740,
+      2830
+    ],
+    "opening_offset_within_window_s": 5
+  },
+  "minimum_accepted_sampled_distance_km": 500,
+  "limits": [
+    "Synthetic SGP4 orbital design, not real operational telemetry. Project names are aliases.",
+    "Three simultaneous Saudi passes are demonstrated over sampled windows; continuous triple coverage is not claimed.",
+    "Inside Saudi uses the provided Natural Earth country outline, not cadastral or precise legal boundaries.",
+    "Full-region candidates require elevation>=10deg for every stored regional user and off-axis<=4.416deg for an independently region-pointed beam.",
+    "The same three satellites can be candidates for all five regions independently; this does not establish fifteen concurrent beams or radio-qualified service.",
+    "Radio payload,200kbit/s design rate and thresholds are unchanged. Geometric availability is not a working-link guarantee.",
+    "Minimum pair spacing is sampled; it is not continuous-time conjunction analysis or collision certification.",
+    "Comparison uses the same new30/25/15/20/10 population and replay start for both orbital designs.",
+    "Only the replay start shifts; OMM element epoch remains2000-01-01. States and orbit curves are freshly propagated, never circularly shifted."
+  ],
+  "sources": [
+    "https://rhodesmill.org/skyfield/earth-satellites.html",
+    "https://rhodesmill.org/skyfield/coordinates.html",
+    "https://celestrak.org/publications/AIAA/2006-6753/"
+  ],
+  "before": {
+    "100min": {
+      "start_utc": "2000-01-01T00:45:45Z",
+      "duration_s": 6000,
+      "cadence_s": 1,
+      "samples": 6000,
+      "regions": [
+        {
+          "name": "Riyadh",
+          "users": 30,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.66,
+          "full_region_dual_fraction": 0.22233333333333333,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        },
+        {
+          "name": "Jeddah",
+          "users": 25,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.6471666666666667,
+          "full_region_dual_fraction": 0.202,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        },
+        {
+          "name": "Madinah",
+          "users": 15,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.6526666666666666,
+          "full_region_dual_fraction": 0.20583333333333334,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        },
+        {
+          "name": "Dammam",
+          "users": 20,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.6636666666666666,
+          "full_region_dual_fraction": 0.22466666666666665,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        },
+        {
+          "name": "Abha",
+          "users": 10,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.6206666666666667,
+          "full_region_dual_fraction": 0.19316666666666665,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        }
+      ],
+      "at_least_three_inside_saudi_fraction": 0.0,
+      "at_least_three_inside_saudi_windows": [],
+      "same_three_visible_from_all_city_centers_fraction": 0.0,
+      "same_three_visible_from_all_city_centers_windows": [],
+      "same_three_full_region_candidates_fraction": 0.0,
+      "same_three_full_region_candidates_windows": [],
+      "same_three_inside_saudi_and_full_region_candidates_fraction": 0.0,
+      "same_three_inside_saudi_and_full_region_candidates_windows": [],
+      "minimum_sampled_pair_distance_km": 791.1487541480938,
+      "minimum_pair_indices": [
+        0,
+        9
+      ],
+      "minimum_pair_names": [
+        "Suhail",
+        "Saraj"
+      ],
+      "minimum_pair_time_s": 2595.0,
+      "maximum_accessible_design_link_margin_db": -1.7753668113074603,
+      "skyfield_frame_crosscheck_max_error_km": 1.1193397279405932e-10,
+      "opening": {
+        "time_s": 0,
+        "inside_saudi_indices": [
+          3
+        ],
+        "common_full_region_candidate_indices": [
+          3,
+          7
+        ],
+        "joint_indices": [
+          3
+        ],
+        "joint_satellites": [
+          {
+            "index": 3,
+            "name": "Jawza",
+            "lat": 22.50533310394007,
+            "lon": 40.69797661716623,
+            "altitude_km": 627.2108941427032
+          }
+        ]
+      },
+      "window_interpretation": "Sampled instants; interval boundaries have cadence uncertainty. Same satellites satisfy all five region tests independently at each instant; no concurrent beam allocation is implied."
+    },
+    "24h": {
+      "start_utc": "2000-01-01T00:45:45Z",
+      "duration_s": 86400,
+      "cadence_s": 10,
+      "samples": 8640,
+      "regions": [
+        {
+          "name": "Riyadh",
+          "users": 30,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.2690972222222222,
+          "full_region_dual_fraction": 0.07152777777777777,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        },
+        {
+          "name": "Jeddah",
+          "users": 25,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.29560185185185184,
+          "full_region_dual_fraction": 0.07997685185185185,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        },
+        {
+          "name": "Madinah",
+          "users": 15,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.2724537037037037,
+          "full_region_dual_fraction": 0.07280092592592592,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        },
+        {
+          "name": "Dammam",
+          "users": 20,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.25590277777777776,
+          "full_region_dual_fraction": 0.06805555555555555,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        },
+        {
+          "name": "Abha",
+          "users": 10,
+          "city_triple_fraction": 0.0,
+          "full_region_single_fraction": 0.31527777777777777,
+          "full_region_dual_fraction": 0.08773148148148148,
+          "full_region_triple_fraction": 0.0,
+          "full_region_triple_windows": []
+        }
+      ],
+      "at_least_three_inside_saudi_fraction": 0.0,
+      "at_least_three_inside_saudi_windows": [],
+      "same_three_visible_from_all_city_centers_fraction": 0.0,
+      "same_three_visible_from_all_city_centers_windows": [],
+      "same_three_full_region_candidates_fraction": 0.0,
+      "same_three_full_region_candidates_windows": [],
+      "same_three_inside_saudi_and_full_region_candidates_fraction": 0.0,
+      "same_three_inside_saudi_and_full_region_candidates_windows": [],
+      "minimum_sampled_pair_distance_km": 791.1481489379737,
+      "minimum_pair_indices": [
+        3,
+        7
+      ],
+      "minimum_pair_names": [
+        "Jawza",
+        "Afaq"
+      ],
+      "minimum_pair_time_s": 66680.0,
+      "maximum_accessible_design_link_margin_db": -1.7685772560102997,
+      "skyfield_frame_crosscheck_max_error_km": 9.374856803373542e-13,
+      "opening": {
+        "time_s": 0,
+        "inside_saudi_indices": [
+          3
+        ],
+        "common_full_region_candidate_indices": [
+          3,
+          7
+        ],
+        "joint_indices": [
+          3
+        ],
+        "joint_satellites": [
+          {
+            "index": 3,
+            "name": "Jawza",
+            "lat": 22.50533310394007,
+            "lon": 40.69797661716623,
+            "altitude_km": 627.2108941427032
+          }
+        ]
+      },
+      "window_interpretation": "Sampled instants; interval boundaries have cadence uncertainty. Same satellites satisfy all five region tests independently at each instant; no concurrent beam allocation is implied."
+    }
+  },
+  "after": {
+    "100min": {
+      "start_utc": "2000-01-01T00:45:45Z",
+      "duration_s": 6000,
+      "cadence_s": 1,
+      "samples": 6000,
+      "regions": [
+        {
+          "name": "Riyadh",
+          "users": 30,
+          "city_triple_fraction": 0.03916666666666667,
+          "full_region_single_fraction": 0.5685,
+          "full_region_dual_fraction": 0.22,
+          "full_region_triple_fraction": 0.039,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 234.0,
+              "sampled_duration_s": 234.0
+            }
+          ]
+        },
+        {
+          "name": "Jeddah",
+          "users": 25,
+          "city_triple_fraction": 0.0265,
+          "full_region_single_fraction": 0.5656666666666667,
+          "full_region_dual_fraction": 0.21483333333333332,
+          "full_region_triple_fraction": 0.026166666666666668,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 140.0,
+              "sampled_duration_s": 140.0
+            },
+            {
+              "start_s": 5983.0,
+              "end_exclusive_s": 6000.0,
+              "sampled_duration_s": 17.0
+            }
+          ]
+        },
+        {
+          "name": "Madinah",
+          "users": 15,
+          "city_triple_fraction": 0.026333333333333334,
+          "full_region_single_fraction": 0.5723333333333334,
+          "full_region_dual_fraction": 0.221,
+          "full_region_triple_fraction": 0.026166666666666668,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 133.0,
+              "sampled_duration_s": 133.0
+            },
+            {
+              "start_s": 5976.0,
+              "end_exclusive_s": 6000.0,
+              "sampled_duration_s": 24.0
+            }
+          ]
+        },
+        {
+          "name": "Dammam",
+          "users": 20,
+          "city_triple_fraction": 0.043833333333333335,
+          "full_region_single_fraction": 0.5696666666666667,
+          "full_region_dual_fraction": 0.22483333333333333,
+          "full_region_triple_fraction": 0.043666666666666666,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 262.0,
+              "sampled_duration_s": 262.0
+            }
+          ]
+        },
+        {
+          "name": "Abha",
+          "users": 10,
+          "city_triple_fraction": 0.03333333333333333,
+          "full_region_single_fraction": 0.5393333333333333,
+          "full_region_dual_fraction": 0.1925,
+          "full_region_triple_fraction": 0.03333333333333333,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 200.0,
+              "sampled_duration_s": 200.0
+            }
+          ]
+        }
+      ],
+      "at_least_three_inside_saudi_fraction": 0.0135,
+      "at_least_three_inside_saudi_windows": [
+        {
+          "start_s": 0.0,
+          "end_exclusive_s": 81.0,
+          "sampled_duration_s": 81.0
+        }
+      ],
+      "same_three_visible_from_all_city_centers_fraction": 0.022333333333333334,
+      "same_three_visible_from_all_city_centers_windows": [
+        {
+          "start_s": 0.0,
+          "end_exclusive_s": 134.0,
+          "sampled_duration_s": 134.0
+        }
+      ],
+      "same_three_full_region_candidates_fraction": 0.022166666666666668,
+      "same_three_full_region_candidates_windows": [
+        {
+          "start_s": 0.0,
+          "end_exclusive_s": 133.0,
+          "sampled_duration_s": 133.0
+        }
+      ],
+      "same_three_inside_saudi_and_full_region_candidates_fraction": 0.0135,
+      "same_three_inside_saudi_and_full_region_candidates_windows": [
+        {
+          "start_s": 0.0,
+          "end_exclusive_s": 81.0,
+          "sampled_duration_s": 81.0
+        }
+      ],
+      "minimum_sampled_pair_distance_km": 669.3174773065934,
+      "minimum_pair_indices": [
+        3,
+        6
+      ],
+      "minimum_pair_names": [
+        "Jawza",
+        "Shihab"
+      ],
+      "minimum_pair_time_s": 2474.0,
+      "maximum_accessible_design_link_margin_db": -1.7753668113074603,
+      "skyfield_frame_crosscheck_max_error_km": 1.1193397279405932e-10,
+      "opening": {
+        "time_s": 0,
+        "inside_saudi_indices": [
+          3,
+          6,
+          7
+        ],
+        "common_full_region_candidate_indices": [
+          3,
+          6,
+          7
+        ],
+        "joint_indices": [
+          3,
+          6,
+          7
+        ],
+        "joint_satellites": [
+          {
+            "index": 3,
+            "name": "Jawza",
+            "lat": 20.694655401048106,
+            "lon": 47.97381245374646,
+            "altitude_km": 627.0377758012237
+          },
+          {
+            "index": 6,
+            "name": "Shihab",
+            "lat": 24.812398504185936,
+            "lon": 42.83509155947847,
+            "altitude_km": 627.4721669556138
+          },
+          {
+            "index": 7,
+            "name": "Afaq",
+            "lat": 26.114929726633733,
+            "lon": 36.8224280261117,
+            "altitude_km": 627.6374672194897
+          }
+        ]
+      },
+      "window_interpretation": "Sampled instants; interval boundaries have cadence uncertainty. Same satellites satisfy all five region tests independently at each instant; no concurrent beam allocation is implied."
+    },
+    "24h": {
+      "start_utc": "2000-01-01T00:45:45Z",
+      "duration_s": 86400,
+      "cadence_s": 10,
+      "samples": 8640,
+      "regions": [
+        {
+          "name": "Riyadh",
+          "users": 30,
+          "city_triple_fraction": 0.017939814814814815,
+          "full_region_single_fraction": 0.24097222222222223,
+          "full_region_dual_fraction": 0.07731481481481481,
+          "full_region_triple_fraction": 0.017824074074074076,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 240.0,
+              "sampled_duration_s": 240.0
+            },
+            {
+              "start_s": 6090.0,
+              "end_exclusive_s": 6350.0,
+              "sampled_duration_s": 260.0
+            },
+            {
+              "start_s": 68880.0,
+              "end_exclusive_s": 69180.0,
+              "sampled_duration_s": 300.0
+            },
+            {
+              "start_s": 75030.0,
+              "end_exclusive_s": 75400.0,
+              "sampled_duration_s": 370.0
+            },
+            {
+              "start_s": 81240.0,
+              "end_exclusive_s": 81610.0,
+              "sampled_duration_s": 370.0
+            }
+          ]
+        },
+        {
+          "name": "Jeddah",
+          "users": 25,
+          "city_triple_fraction": 0.018518518518518517,
+          "full_region_single_fraction": 0.26238425925925923,
+          "full_region_dual_fraction": 0.08923611111111111,
+          "full_region_triple_fraction": 0.018287037037037036,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 140.0,
+              "sampled_duration_s": 140.0
+            },
+            {
+              "start_s": 5990.0,
+              "end_exclusive_s": 6330.0,
+              "sampled_duration_s": 340.0
+            },
+            {
+              "start_s": 12230.0,
+              "end_exclusive_s": 12280.0,
+              "sampled_duration_s": 50.0
+            },
+            {
+              "start_s": 68750.0,
+              "end_exclusive_s": 69060.0,
+              "sampled_duration_s": 310.0
+            },
+            {
+              "start_s": 74900.0,
+              "end_exclusive_s": 75270.0,
+              "sampled_duration_s": 370.0
+            },
+            {
+              "start_s": 81120.0,
+              "end_exclusive_s": 81490.0,
+              "sampled_duration_s": 370.0
+            }
+          ]
+        },
+        {
+          "name": "Madinah",
+          "users": 15,
+          "city_triple_fraction": 0.01678240740740741,
+          "full_region_single_fraction": 0.2414351851851852,
+          "full_region_dual_fraction": 0.08078703703703703,
+          "full_region_triple_fraction": 0.016435185185185185,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 140.0,
+              "sampled_duration_s": 140.0
+            },
+            {
+              "start_s": 5980.0,
+              "end_exclusive_s": 6290.0,
+              "sampled_duration_s": 310.0
+            },
+            {
+              "start_s": 68820.0,
+              "end_exclusive_s": 69070.0,
+              "sampled_duration_s": 250.0
+            },
+            {
+              "start_s": 74930.0,
+              "end_exclusive_s": 75280.0,
+              "sampled_duration_s": 350.0
+            },
+            {
+              "start_s": 81130.0,
+              "end_exclusive_s": 81500.0,
+              "sampled_duration_s": 370.0
+            }
+          ]
+        },
+        {
+          "name": "Dammam",
+          "users": 20,
+          "city_triple_fraction": 0.01678240740740741,
+          "full_region_single_fraction": 0.22847222222222222,
+          "full_region_dual_fraction": 0.075,
+          "full_region_triple_fraction": 0.01678240740740741,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 270.0,
+              "sampled_duration_s": 270.0
+            },
+            {
+              "start_s": 6140.0,
+              "end_exclusive_s": 6310.0,
+              "sampled_duration_s": 170.0
+            },
+            {
+              "start_s": 68950.0,
+              "end_exclusive_s": 69240.0,
+              "sampled_duration_s": 290.0
+            },
+            {
+              "start_s": 75090.0,
+              "end_exclusive_s": 75450.0,
+              "sampled_duration_s": 360.0
+            },
+            {
+              "start_s": 81290.0,
+              "end_exclusive_s": 81650.0,
+              "sampled_duration_s": 360.0
+            }
+          ]
+        },
+        {
+          "name": "Abha",
+          "users": 10,
+          "city_triple_fraction": 0.022222222222222223,
+          "full_region_single_fraction": 0.2806712962962963,
+          "full_region_dual_fraction": 0.09537037037037037,
+          "full_region_triple_fraction": 0.022222222222222223,
+          "full_region_triple_windows": [
+            {
+              "start_s": 0.0,
+              "end_exclusive_s": 200.0,
+              "sampled_duration_s": 200.0
+            },
+            {
+              "start_s": 6060.0,
+              "end_exclusive_s": 6410.0,
+              "sampled_duration_s": 350.0
+            },
+            {
+              "start_s": 12270.0,
+              "end_exclusive_s": 12450.0,
+              "sampled_duration_s": 180.0
+            },
+            {
+              "start_s": 62740.0,
+              "end_exclusive_s": 62880.0,
+              "sampled_duration_s": 140.0
+            },
+            {
+              "start_s": 68740.0,
+              "end_exclusive_s": 69090.0,
+              "sampled_duration_s": 350.0
+            },
+            {
+              "start_s": 74940.0,
+              "end_exclusive_s": 75290.0,
+              "sampled_duration_s": 350.0
+            },
+            {
+              "start_s": 81190.0,
+              "end_exclusive_s": 81540.0,
+              "sampled_duration_s": 350.0
+            }
+          ]
+        }
+      ],
+      "at_least_three_inside_saudi_fraction": 0.0020833333333333333,
+      "at_least_three_inside_saudi_windows": [
+        {
+          "start_s": 0.0,
+          "end_exclusive_s": 90.0,
+          "sampled_duration_s": 90.0
+        },
+        {
+          "start_s": 81370.0,
+          "end_exclusive_s": 81420.0,
+          "sampled_duration_s": 50.0
+        },
+        {
+          "start_s": 81430.0,
+          "end_exclusive_s": 81470.0,
+          "sampled_duration_s": 40.0
+        }
+      ],
+      "same_three_visible_from_all_city_centers_fraction": 0.009027777777777777,
+      "same_three_visible_from_all_city_centers_windows": [
+        {
+          "start_s": 0.0,
+          "end_exclusive_s": 140.0,
+          "sampled_duration_s": 140.0
+        },
+        {
+          "start_s": 6140.0,
+          "end_exclusive_s": 6290.0,
+          "sampled_duration_s": 150.0
+        },
+        {
+          "start_s": 68950.0,
+          "end_exclusive_s": 69060.0,
+          "sampled_duration_s": 110.0
+        },
+        {
+          "start_s": 75090.0,
+          "end_exclusive_s": 75270.0,
+          "sampled_duration_s": 180.0
+        },
+        {
+          "start_s": 81290.0,
+          "end_exclusive_s": 81490.0,
+          "sampled_duration_s": 200.0
+        }
+      ],
+      "same_three_full_region_candidates_fraction": 0.009027777777777777,
+      "same_three_full_region_candidates_windows": [
+        {
+          "start_s": 0.0,
+          "end_exclusive_s": 140.0,
+          "sampled_duration_s": 140.0
+        },
+        {
+          "start_s": 6140.0,
+          "end_exclusive_s": 6290.0,
+          "sampled_duration_s": 150.0
+        },
+        {
+          "start_s": 68950.0,
+          "end_exclusive_s": 69060.0,
+          "sampled_duration_s": 110.0
+        },
+        {
+          "start_s": 75090.0,
+          "end_exclusive_s": 75270.0,
+          "sampled_duration_s": 180.0
+        },
+        {
+          "start_s": 81290.0,
+          "end_exclusive_s": 81490.0,
+          "sampled_duration_s": 200.0
+        }
+      ],
+      "same_three_inside_saudi_and_full_region_candidates_fraction": 0.0020833333333333333,
+      "same_three_inside_saudi_and_full_region_candidates_windows": [
+        {
+          "start_s": 0.0,
+          "end_exclusive_s": 90.0,
+          "sampled_duration_s": 90.0
+        },
+        {
+          "start_s": 81370.0,
+          "end_exclusive_s": 81420.0,
+          "sampled_duration_s": 50.0
+        },
+        {
+          "start_s": 81430.0,
+          "end_exclusive_s": 81470.0,
+          "sampled_duration_s": 40.0
+        }
+      ],
+      "minimum_sampled_pair_distance_km": 669.317116447785,
+      "minimum_pair_indices": [
+        6,
+        7
+      ],
+      "minimum_pair_names": [
+        "Shihab",
+        "Afaq"
+      ],
+      "minimum_pair_time_s": 61040.0,
+      "maximum_accessible_design_link_margin_db": -1.766490866767267,
+      "skyfield_frame_crosscheck_max_error_km": 9.374856803373542e-13,
+      "opening": {
+        "time_s": 0,
+        "inside_saudi_indices": [
+          3,
+          6,
+          7
+        ],
+        "common_full_region_candidate_indices": [
+          3,
+          6,
+          7
+        ],
+        "joint_indices": [
+          3,
+          6,
+          7
+        ],
+        "joint_satellites": [
+          {
+            "index": 3,
+            "name": "Jawza",
+            "lat": 20.694655401048106,
+            "lon": 47.97381245374646,
+            "altitude_km": 627.0377758012237
+          },
+          {
+            "index": 6,
+            "name": "Shihab",
+            "lat": 24.812398504185936,
+            "lon": 42.83509155947847,
+            "altitude_km": 627.4721669556138
+          },
+          {
+            "index": 7,
+            "name": "Afaq",
+            "lat": 26.114929726633733,
+            "lon": 36.8224280261117,
+            "altitude_km": 627.6374672194897
+          }
+        ]
+      },
+      "window_interpretation": "Sampled instants; interval boundaries have cadence uncertainty. Same satellites satisfy all five region tests independently at each instant; no concurrent beam allocation is implied."
+    }
+  },
+  "validation_passed": true,
+  "omm_sha256": "fb51886726ea602113ba191c2f1bac11c554635a13e68780a909d70cf64248e3"
+}

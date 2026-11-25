@@ -1,0 +1,6 @@
+city,city_ar,geonames_id,latitude_deg,longitude_deg,province,radius_km,coordinate_reference,coordinate_source_url,is_official_admin_boundary
+Riyadh,الرياض,108410,24.68773,46.72185,Riyadh,11.0,GeoNames populated-place point,https://www.geonames.org/108410/,False
+Jeddah,جدة,105343,21.49012,39.18624,Makkah,11.0,GeoNames populated-place point,https://www.geonames.org/105343/,False
+Madinah,المدينة المنورة,109223,24.46861,39.61417,Madinah,8.0,GeoNames populated-place point,https://www.geonames.org/109223/,False
+Dammam,الدمام,110336,26.43442,50.10326,Eastern Province,8.0,GeoNames populated-place point,https://www.geonames.org/110336/,False
+Abha,أبها,110690,18.21639,42.50528,Asir,6.0,GeoNames populated-place point,https://www.geonames.org/110690/,False

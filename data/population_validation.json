@@ -1,0 +1,32 @@
+{
+  "total_users": 100,
+  "region_counts": [
+    30,
+    25,
+    15,
+    20,
+    10
+  ],
+  "region_offsets": [
+    0,
+    30,
+    55,
+    70,
+    90
+  ],
+  "maximum_city_distance_km": 9.043447800315604,
+  "maximum_distance_rounding_error_m": 0.05022617550889663,
+  "unique_coordinates": 100,
+  "checks_passed": true,
+  "geographiclib_crosscheck": {
+    "inverse_cases": 100,
+    "direct_cases": 180,
+    "maximum_inverse_difference_m": 5.4115844250191e-07,
+    "maximum_direct_position_difference_m": 7.51267076422957e-08
+  },
+  "csv_sha256": "6557aa0cd8bf79cc9bf1788b80f81f4e652fb6b9ee1f6c9a2908b65321dafbe6",
+  "city_reference_sha256": "f58f9f3cc9d30bae3f9fa0926058f906c4cb6bc4bbf7fe178516c2a6e7696bbb",
+  "numpy_version": "2.3.5",
+  "fixed_seed": 20261122,
+  "reproducible_csv": true
+}

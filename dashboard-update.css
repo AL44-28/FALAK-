@@ -1,0 +1,83 @@
+/* FALAK: readable regional maps and the supplied Saudi wave identity. */
+:root{--header-height:86px;--deck-height:350px;--green:#4BDA8D;--orange:#F59E0B;--red:#FF5B68}
+.app-header{background:#080e20;gap:48px;padding-inline:28px}
+.wordmark{flex-shrink:0;line-height:0}
+.brand-logo{display:block;width:186px;height:80px;object-fit:contain;mix-blend-mode:screen}
+.loading-brand{width:min(430px,78vw);height:auto;mix-blend-mode:screen}
+.primary-nav button{font-size:15px}
+.hero-heading{left:32px;top:24px;max-width:355px}
+.hero-heading .overline{font-size:14px;letter-spacing:1.8px;color:#B7C9EC}
+.hero-heading h1{font-size:40px;margin-top:9px}
+.mission-totals{display:flex;gap:27px;margin:19px 0 0;padding:0}
+.mission-totals>div{display:flex;flex-direction:column-reverse;gap:1px}
+.mission-totals dd{margin:0;font-size:29px;font-weight:650;line-height:1.1;color:#F3F6FF;font-variant-numeric:tabular-nums}
+.mission-totals dt{font-size:14px;color:#B6C8E4;letter-spacing:.15px}
+.hero-heading #regionSummary{font-size:14px;margin-top:14px;color:#ACBFDC}
+.camera-controls{left:32px;top:235px;flex-direction:row;gap:8px}
+.camera-controls button{min-width:0;font-size:14px;padding:9px 11px;gap:7px}
+.camera-controls .icon{width:18px;height:18px}
+.instrument-deck{height:var(--deck-height);padding:0 24px 16px}
+.instrument-deck .region-panel{padding:17px 22px 15px;overflow:hidden}
+.region-panel .instrument-heading{height:35px}
+.region-panel .instrument-heading h2{font-size:20px}
+.region-panel .instrument-heading select{font-size:15px;min-height:34px;max-width:none;padding:5px 12px}
+.region-panel .region-visuals{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(0,1.2fr);max-width:none;width:100%;align-self:stretch;gap:24px;margin-top:10px;flex:1;min-height:0}
+.region-panel .saudi-outline{width:auto;min-width:0;padding:0 18px 0 0;border-right:1px solid #839CCA35}
+.region-panel .user-map-wrap{min-width:0}
+.region-panel .region-footer{padding:0;min-height:46px;gap:12px;margin-top:12px}
+.region-panel .state-counts{justify-content:flex-start;gap:12px 20px}
+.region-panel .state-counts .uv-state{font-size:14px;gap:7px}
+.region-panel .state-counts .uv-state i{width:12px;height:12px;margin:0;box-shadow:0 0 0 3px #0A16294D}
+.region-panel .state-counts .uv-state b{font-size:20px;font-weight:700}
+.region-panel .user-selection{gap:8px}
+.region-panel .user-selection select{font-size:14px;min-height:34px;max-width:none;padding:4px 10px}
+.pass-speed{font-size:13px;color:#C8D6ED;white-space:nowrap;display:inline-flex;align-items:center;min-width:85px;justify-content:flex-end}
+.pass-speed.is-saudi{color:#B5E8D1}
+.speed-control label,.speed-control select{font-size:14px}
+.satellite-panel{overflow:auto;scrollbar-width:thin;scrollbar-color:#405A82 transparent}
+@media(min-width:1700px){
+ :root{--deck-height:370px;--header-height:94px}
+ .app-header{gap:65px;padding-inline:36px}.brand-logo{width:211px;height:90px}
+ .hero-heading{left:40px;top:28px}.hero-heading h1{font-size:45px}.mission-totals{gap:34px}.mission-totals dd{font-size:32px}.mission-totals dt{font-size:15px}
+ .camera-controls{left:40px;top:245px}.instrument-deck{padding-inline:30px}.region-panel .region-visuals{grid-template-columns:minmax(350px,.8fr) minmax(0,1.2fr);gap:30px}
+ .region-panel .state-counts .uv-state{font-size:15px}
+}
+@media(min-width:821px) and (max-height:850px){
+ :root{--header-height:76px;--deck-height:285px;--timeline-height:62px}
+ .brand-logo{height:72px;width:167px}.hero-heading{top:16px;left:24px}.hero-heading h1{font-size:33px}.hero-heading .overline{font-size:13px}
+ .mission-totals{margin-top:13px;gap:27px}.mission-totals dd{font-size:25px}.mission-totals dt{font-size:13px}.hero-heading #regionSummary{margin-top:10px;font-size:13px}
+ .camera-controls{top:208px;left:24px}.camera-controls button{font-size:13px;padding:7px 9px}
+ .instrument-deck .region-panel{padding:12px 18px 10px}.region-panel .region-visuals{margin-top:6px;gap:18px}.region-panel .region-footer{margin-top:5px;min-height:39px}
+ .region-panel .instrument-heading h2{font-size:18px}.region-panel .state-counts .uv-state b{font-size:18px}.pass-speed{font-size:12px;min-width:74px}
+}
+@media(min-width:821px) and (max-height:780px){
+ body{overflow:auto}.dashboard-page{height:auto;min-height:calc(100dvh - var(--header-height));padding-bottom:var(--timeline-height)}.mission-hero{height:420px;flex:none}.instrument-deck{height:310px}.satellite-panel{max-height:395px}
+}
+@media(min-width:821px) and (max-width:1100px){
+ .hero-heading{max-width:300px}.hero-heading h1{font-size:32px}.camera-controls button span{display:none}.camera-controls button{width:38px;height:38px;justify-content:center}
+ .app-header{gap:32px;padding-inline:22px}.region-panel .region-visuals{grid-template-columns:minmax(250px,.85fr) minmax(0,1.15fr);gap:18px}.pass-speed{max-width:108px;white-space:normal;line-height:1.2;font-size:12px}
+}
+@media(max-width:820px){
+ :root{--header-height:80px}.app-header{gap:24px;padding-inline:16px}.brand-logo{width:160px;height:76px}.primary-nav{gap:22px}.primary-nav button{font-size:14px}
+ .hero-heading{left:22px;top:24px}.hero-heading h1{font-size:36px}.hero-heading .overline{font-size:13px}.mission-totals{margin-top:16px;gap:28px}.mission-totals dd{font-size:27px}.mission-totals dt{font-size:14px}
+ .camera-controls{left:22px;top:230px}.camera-controls button{font-size:14px}.camera-controls span{display:inline}
+ .mission-hero{height:auto;padding-top:490px;padding-bottom:24px}
+ .scene-legend{position:relative;top:auto;bottom:auto;left:auto;right:auto;margin:0 22px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px 8px}
+ .scene-instructions{position:relative;top:auto;bottom:auto;left:auto;margin:12px 22px 18px;line-height:1.4}
+ .satellite-panel{position:relative;top:auto;bottom:auto;left:auto;right:auto;margin:0 22px}
+ .instrument-deck{height:430px;padding:0 22px}.instrument-deck .region-panel{height:100%;min-height:0;padding:16px}.region-panel .region-visuals{grid-template-columns:minmax(210px,.85fr) minmax(0,1.15fr);gap:16px}.region-panel .region-footer{min-height:58px}
+ .pass-speed{font-size:12px;min-width:0;max-width:95px;white-space:normal;line-height:1.2}.speed-control{gap:7px}
+}
+@media(max-width:560px){
+ :root{--header-height:72px}.app-header{gap:22px;padding-inline:12px}.brand-logo{width:135px;height:68px}.primary-nav{gap:19px}.primary-nav button{font-size:13px}
+ .hero-heading{left:19px;max-width:calc(100% - 38px)}.hero-heading h1{font-size:34px}.hero-heading .overline{font-size:12px}.mission-totals{gap:27px;margin-top:14px}.mission-totals dd{font-size:27px}.mission-totals dt{font-size:13px}.hero-heading #regionSummary{font-size:13px}
+ .camera-controls{left:19px;top:226px}.camera-controls span{display:none}
+ .mission-hero{height:auto;padding-top:470px;padding-bottom:22px}.scene-legend{margin-inline:19px;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.scene-instructions{margin-inline:19px}.satellite-panel{margin-inline:16px}
+ .instrument-deck{height:685px;padding:0 16px}.instrument-deck .region-panel{padding:15px 16px}.region-panel .instrument-heading h2{font-size:18px}.region-panel .region-visuals{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(190px,.9fr) minmax(230px,1.1fr);gap:14px;max-width:none;margin-top:12px}
+ .region-panel .saudi-outline{border-right:0;border-bottom:1px solid #839CCA35;padding:0 0 10px}.region-panel .region-footer{align-items:flex-start;margin-top:12px;gap:12px}.region-panel .state-counts{width:100%;gap:12px;justify-content:space-between}.region-panel .state-counts .uv-state{font-size:12px;gap:5px}.region-panel .state-counts .uv-state i{width:10px;height:10px}.region-panel .state-counts .uv-state b{font-size:17px}
+ .user-selection{margin-left:auto}.pass-speed{font-size:11px;max-width:83px}.timeline-bar{gap:7px}.speed-control select{font-size:12px}
+}
+@media(max-width:390px){
+ .app-header{gap:12px}.brand-logo{width:123px}.primary-nav{gap:14px}
+ .pass-speed{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+}

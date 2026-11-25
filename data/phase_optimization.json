@@ -1,0 +1,104 @@
+{
+  "start_utc": "2000-01-01T00:00:00+00:00",
+  "duration_s": 86400,
+  "sample_step_s": 30,
+  "phase_grid_deg": 10,
+  "method": "Multi-start coordinate search; not a global optimum",
+  "objective": "Minimize worst city-centre geometric outage, then sum of longest outages, then uncovered samples",
+  "changes": [
+    {
+      "satellite": "SYNTHETIC Suhail",
+      "old_phase_deg": 30.0,
+      "new_phase_deg": 70.0
+    },
+    {
+      "satellite": "SYNTHETIC Thurayya",
+      "old_phase_deg": 0.0,
+      "new_phase_deg": 130.0
+    },
+    {
+      "satellite": "SYNTHETIC Shira",
+      "old_phase_deg": 120.0,
+      "new_phase_deg": 190.0
+    },
+    {
+      "satellite": "SYNTHETIC Jawza",
+      "old_phase_deg": 240.0,
+      "new_phase_deg": 170.0
+    },
+    {
+      "satellite": "SYNTHETIC Nasr",
+      "old_phase_deg": 40.0,
+      "new_phase_deg": 320.0
+    },
+    {
+      "satellite": "SYNTHETIC Barq",
+      "old_phase_deg": 160.0,
+      "new_phase_deg": 280.0
+    },
+    {
+      "satellite": "SYNTHETIC Shihab",
+      "old_phase_deg": 280.0,
+      "new_phase_deg": 10.0
+    },
+    {
+      "satellite": "SYNTHETIC Afaq",
+      "old_phase_deg": 80.0,
+      "new_phase_deg": 60.0
+    },
+    {
+      "satellite": "SYNTHETIC Madar",
+      "old_phase_deg": 200.0,
+      "new_phase_deg": 160.0
+    },
+    {
+      "satellite": "SYNTHETIC Saraj",
+      "old_phase_deg": 320.0,
+      "new_phase_deg": 230.0
+    }
+  ],
+  "regions": [
+    {
+      "city": "Riyadh",
+      "coverage_before_pct": 20.48611111111111,
+      "coverage_after_pct": 18.40277777777778,
+      "max_gap_before_s": 35250,
+      "max_gap_after_s": 34140
+    },
+    {
+      "city": "Jeddah",
+      "coverage_before_pct": 19.40972222222222,
+      "coverage_after_pct": 19.20138888888889,
+      "max_gap_before_s": 37500,
+      "max_gap_after_s": 36150
+    },
+    {
+      "city": "Madinah",
+      "coverage_before_pct": 20.069444444444446,
+      "coverage_after_pct": 19.479166666666668,
+      "max_gap_before_s": 37680,
+      "max_gap_after_s": 36660
+    },
+    {
+      "city": "Dammam",
+      "coverage_before_pct": 20.868055555555557,
+      "coverage_after_pct": 18.993055555555554,
+      "max_gap_before_s": 37230,
+      "max_gap_after_s": 35220
+    },
+    {
+      "city": "Abha",
+      "coverage_before_pct": 18.541666666666668,
+      "coverage_after_pct": 18.368055555555557,
+      "max_gap_before_s": 33030,
+      "max_gap_after_s": 32160
+    }
+  ],
+  "limits": [
+    "City-centre access only; users must be checked separately.",
+    "Independent steerable candidate beams; no resource scheduler.",
+    "No RF margin, fading or handover interruption in this score.",
+    "30-second sampling; boundaries and gaps are approximate.",
+    "One study day only; no continuous-service guarantee."
+  ]
+}

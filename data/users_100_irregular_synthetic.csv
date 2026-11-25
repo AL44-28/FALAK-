@@ -1,0 +1,101 @@
+user_id,city,city_ar,latitude_deg,longitude_deg,wgs84_ellipsoid_height_m,height_kind,distance_from_geonames_city_km,cluster_id,point_type,observed_subscriber,building_or_road_verified,source_of_city_center,seed
+U001,Riyadh,الرياض,24.69834018,46.71775375,0.0,assumed_zero_not_dem,1.2462,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U002,Riyadh,الرياض,24.68088689,46.73281520,0.0,assumed_zero_not_dem,1.3439,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U003,Riyadh,الرياض,24.66511747,46.69963377,0.0,assumed_zero_not_dem,3.3660,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U004,Riyadh,الرياض,24.68668630,46.73584582,0.0,assumed_zero_not_dem,1.4211,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U005,Riyadh,الرياض,24.69404262,46.69162029,0.0,assumed_zero_not_dem,3.1382,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U006,Riyadh,الرياض,24.69920377,46.68615271,0.0,assumed_zero_not_dem,3.8296,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U007,Riyadh,الرياض,24.68964251,46.72911933,0.0,assumed_zero_not_dem,0.7656,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U008,Riyadh,الرياض,24.69011184,46.71319675,0.0,assumed_zero_not_dem,0.9146,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U009,Riyadh,الرياض,24.66704737,46.71570843,0.0,assumed_zero_not_dem,2.3738,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U010,Riyadh,الرياض,24.68488959,46.72697071,0.0,assumed_zero_not_dem,0.6063,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U011,Riyadh,الرياض,24.68360715,46.72173095,0.0,assumed_zero_not_dem,0.4568,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U012,Riyadh,الرياض,24.68330525,46.71090988,0.0,assumed_zero_not_dem,1.2108,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U013,Riyadh,الرياض,24.67166127,46.71492221,0.0,assumed_zero_not_dem,1.9130,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U014,Riyadh,الرياض,24.68332840,46.70715962,0.0,assumed_zero_not_dem,1.5646,RIYADH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U015,Riyadh,الرياض,24.71598132,46.68318550,0.0,assumed_zero_not_dem,5.0101,RIYADH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U016,Riyadh,الرياض,24.70366882,46.68690171,0.0,assumed_zero_not_dem,3.9529,RIYADH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U017,Riyadh,الرياض,24.71171386,46.69047828,0.0,assumed_zero_not_dem,4.1396,RIYADH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U018,Riyadh,الرياض,24.69387601,46.68996502,0.0,assumed_zero_not_dem,3.2978,RIYADH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U019,Riyadh,الرياض,24.72654269,46.68878633,0.0,assumed_zero_not_dem,5.4476,RIYADH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U020,Riyadh,الرياض,24.71101644,46.66515720,0.0,assumed_zero_not_dem,6.2902,RIYADH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U021,Riyadh,الرياض,24.69857132,46.67943909,0.0,assumed_zero_not_dem,4.4568,RIYADH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U022,Riyadh,الرياض,24.70335074,46.77941225,0.0,assumed_zero_not_dem,6.0767,RIYADH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U023,Riyadh,الرياض,24.70059563,46.76791743,0.0,assumed_zero_not_dem,4.8749,RIYADH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U024,Riyadh,الرياض,24.71299978,46.76991790,0.0,assumed_zero_not_dem,5.6120,RIYADH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U025,Riyadh,الرياض,24.73403561,46.75505698,0.0,assumed_zero_not_dem,6.1318,RIYADH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U026,Riyadh,الرياض,24.71660598,46.76748829,0.0,assumed_zero_not_dem,5.6177,RIYADH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U027,Riyadh,الرياض,24.73467729,46.75098142,0.0,assumed_zero_not_dem,5.9776,RIYADH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U028,Riyadh,الرياض,24.64612811,46.69942083,0.0,assumed_zero_not_dem,5.1371,RIYADH-C4,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U029,Riyadh,الرياض,24.64787208,46.69663705,0.0,assumed_zero_not_dem,5.0995,RIYADH-C4,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U030,Riyadh,الرياض,24.64172265,46.70226338,0.0,assumed_zero_not_dem,5.4682,RIYADH-C4,synthetic_research_user_near_real_city,False,False,GeoNames:108410,20261122
+U031,Jeddah,جدة,21.50090533,39.17869841,0.0,assumed_zero_not_dem,1.4272,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U032,Jeddah,جدة,21.49787598,39.21144984,0.0,assumed_zero_not_dem,2.7499,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U033,Jeddah,جدة,21.51101328,39.20327181,0.0,assumed_zero_not_dem,2.9097,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U034,Jeddah,جدة,21.48139536,39.17097411,0.0,assumed_zero_not_dem,1.8536,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U035,Jeddah,جدة,21.47108174,39.21772181,0.0,assumed_zero_not_dem,3.8843,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U036,Jeddah,جدة,21.49606427,39.22001262,0.0,assumed_zero_not_dem,3.5610,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U037,Jeddah,جدة,21.48258947,39.21668060,0.0,assumed_zero_not_dem,3.2629,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U038,Jeddah,جدة,21.50458222,39.20060232,0.0,assumed_zero_not_dem,2.1861,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U039,Jeddah,جدة,21.49654679,39.21250806,0.0,assumed_zero_not_dem,2.8135,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U040,Jeddah,جدة,21.48294786,39.19911059,0.0,assumed_zero_not_dem,1.5523,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U041,Jeddah,جدة,21.47770980,39.20280265,0.0,assumed_zero_not_dem,2.1987,JEDDAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U042,Jeddah,جدة,21.51496660,39.24472470,0.0,assumed_zero_not_dem,6.6553,JEDDAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U043,Jeddah,جدة,21.52131368,39.22882246,0.0,assumed_zero_not_dem,5.6033,JEDDAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U044,Jeddah,جدة,21.50413664,39.25927417,0.0,assumed_zero_not_dem,7.7255,JEDDAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U045,Jeddah,جدة,21.51468967,39.26081369,0.0,assumed_zero_not_dem,8.1921,JEDDAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U046,Jeddah,جدة,21.52131809,39.25406343,0.0,assumed_zero_not_dem,7.8307,JEDDAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U047,Jeddah,جدة,21.53195832,39.24616502,0.0,assumed_zero_not_dem,7.7467,JEDDAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U048,Jeddah,جدة,21.46722275,39.21016844,0.0,assumed_zero_not_dem,3.5464,JEDDAH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U049,Jeddah,جدة,21.44245773,39.21237124,0.0,assumed_zero_not_dem,5.9317,JEDDAH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U050,Jeddah,جدة,21.46651937,39.22047453,0.0,assumed_zero_not_dem,4.4064,JEDDAH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U051,Jeddah,جدة,21.43309764,39.20892068,0.0,assumed_zero_not_dem,6.7371,JEDDAH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U052,Jeddah,جدة,21.45220603,39.20550647,0.0,assumed_zero_not_dem,4.6487,JEDDAH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U053,Jeddah,جدة,21.49187703,39.26604493,0.0,assumed_zero_not_dem,8.2722,JEDDAH-C4,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U054,Jeddah,جدة,21.49197018,39.26953413,0.0,assumed_zero_not_dem,8.6339,JEDDAH-C4,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U055,Jeddah,جدة,21.49553452,39.27331869,0.0,assumed_zero_not_dem,9.0434,JEDDAH-C4,synthetic_research_user_near_real_city,False,False,GeoNames:105343,20261122
+U056,Madinah,المدينة المنورة,24.47175632,39.61819181,0.0,assumed_zero_not_dem,0.5364,MADINAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U057,Madinah,المدينة المنورة,24.46339612,39.62593426,0.0,assumed_zero_not_dem,1.3251,MADINAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U058,Madinah,المدينة المنورة,24.47124198,39.62737608,0.0,assumed_zero_not_dem,1.3702,MADINAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U059,Madinah,المدينة المنورة,24.47355916,39.61920607,0.0,assumed_zero_not_dem,0.7491,MADINAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U060,Madinah,المدينة المنورة,24.46442309,39.60548133,0.0,assumed_zero_not_dem,0.9955,MADINAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U061,Madinah,المدينة المنورة,24.47376649,39.62375827,0.0,assumed_zero_not_dem,1.1274,MADINAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U062,Madinah,المدينة المنورة,24.45809055,39.60717695,0.0,assumed_zero_not_dem,1.3639,MADINAH-C1,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U063,Madinah,المدينة المنورة,24.48933384,39.56767161,0.0,assumed_zero_not_dem,5.2428,MADINAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U064,Madinah,المدينة المنورة,24.49540378,39.59672921,0.0,assumed_zero_not_dem,3.4545,MADINAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U065,Madinah,المدينة المنورة,24.48483490,39.60910406,0.0,assumed_zero_not_dem,1.8691,MADINAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U066,Madinah,المدينة المنورة,24.49030602,39.59518220,0.0,assumed_zero_not_dem,3.0790,MADINAH-C2,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U067,Madinah,المدينة المنورة,24.48093899,39.65316444,0.0,assumed_zero_not_dem,4.1823,MADINAH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U068,Madinah,المدينة المنورة,24.47353012,39.64404023,0.0,assumed_zero_not_dem,3.0768,MADINAH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U069,Madinah,المدينة المنورة,24.47978001,39.66038562,0.0,assumed_zero_not_dem,4.8457,MADINAH-C3,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U070,Madinah,المدينة المنورة,24.44331188,39.61822658,0.0,assumed_zero_not_dem,2.8322,MADINAH-C4,synthetic_research_user_near_real_city,False,False,GeoNames:109223,20261122
+U071,Dammam,الدمام,26.43433581,50.09664180,0.0,assumed_zero_not_dem,0.6602,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U072,Dammam,الدمام,26.44884231,50.08295056,0.0,assumed_zero_not_dem,2.5801,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U073,Dammam,الدمام,26.43339881,50.08686077,0.0,assumed_zero_not_dem,1.6397,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U074,Dammam,الدمام,26.44060512,50.09141437,0.0,assumed_zero_not_dem,1.3659,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U075,Dammam,الدمام,26.42252331,50.09136319,0.0,assumed_zero_not_dem,1.7736,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U076,Dammam,الدمام,26.41546559,50.09542445,0.0,assumed_zero_not_dem,2.2408,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U077,Dammam,الدمام,26.43359298,50.08202026,0.0,assumed_zero_not_dem,2.1206,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U078,Dammam,الدمام,26.43793622,50.07582395,0.0,assumed_zero_not_dem,2.7642,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U079,Dammam,الدمام,26.42712905,50.08790542,0.0,assumed_zero_not_dem,1.7316,DAMMAM-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U080,Dammam,الدمام,26.46573785,50.05948133,0.0,assumed_zero_not_dem,5.5770,DAMMAM-C2,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U081,Dammam,الدمام,26.46530723,50.06372345,0.0,assumed_zero_not_dem,5.2210,DAMMAM-C2,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U082,Dammam,الدمام,26.45218713,50.07501471,0.0,assumed_zero_not_dem,3.4368,DAMMAM-C2,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U083,Dammam,الدمام,26.45959265,50.06327352,0.0,assumed_zero_not_dem,4.8666,DAMMAM-C2,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U084,Dammam,الدمام,26.45465994,50.06612173,0.0,assumed_zero_not_dem,4.3300,DAMMAM-C2,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U085,Dammam,الدمام,26.40518113,50.08143207,0.0,assumed_zero_not_dem,3.9033,DAMMAM-C3,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U086,Dammam,الدمام,26.40232524,50.06597210,0.0,assumed_zero_not_dem,5.1461,DAMMAM-C3,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U087,Dammam,الدمام,26.40212474,50.05319671,0.0,assumed_zero_not_dem,6.1438,DAMMAM-C3,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U088,Dammam,الدمام,26.40519086,50.05004432,0.0,assumed_zero_not_dem,6.2185,DAMMAM-C3,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U089,Dammam,الدمام,26.41769007,50.10270436,0.0,assumed_zero_not_dem,1.8544,DAMMAM-C4,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U090,Dammam,الدمام,26.41893673,50.09654231,0.0,assumed_zero_not_dem,1.8417,DAMMAM-C4,synthetic_research_user_near_real_city,False,False,GeoNames:110336,20261122
+U091,Abha,أبها,18.22663470,42.50200141,0.0,assumed_zero_not_dem,1.1858,ABHA-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U092,Abha,أبها,18.22043052,42.50631094,0.0,assumed_zero_not_dem,0.4603,ABHA-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U093,Abha,أبها,18.21027173,42.50649358,0.0,assumed_zero_not_dem,0.6892,ABHA-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U094,Abha,أبها,18.21678504,42.49424895,0.0,assumed_zero_not_dem,1.1676,ABHA-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U095,Abha,أبها,18.22660448,42.50720109,0.0,assumed_zero_not_dem,1.1487,ABHA-C1,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U096,Abha,أبها,18.23085102,42.48649368,0.0,assumed_zero_not_dem,2.5515,ABHA-C2,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U097,Abha,أبها,18.23919420,42.48987215,0.0,assumed_zero_not_dem,3.0044,ABHA-C2,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U098,Abha,أبها,18.21094348,42.51294228,0.0,assumed_zero_not_dem,1.0101,ABHA-C3,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U099,Abha,أبها,18.22430654,42.52038261,0.0,assumed_zero_not_dem,1.8220,ABHA-C3,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122
+U100,Abha,أبها,18.20383085,42.50038447,0.0,assumed_zero_not_dem,1.4834,ABHA-C4,synthetic_research_user_near_real_city,False,False,GeoNames:110690,20261122

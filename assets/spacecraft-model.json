@@ -1,0 +1,76 @@
+{
+  "original_asset": true,
+  "visual_only": true,
+  "axes": "X solar wings; +Z reflector boresight; model frame is illustrative",
+  "bounds": [
+    [
+      -4.579999999999999,
+      -0.961,
+      -1.7812628116557327
+    ],
+    [
+      4.579999999999999,
+      0.961,
+      1.99
+    ]
+  ],
+  "triangles": 13476,
+  "vertices": 9190,
+  "parts": 812,
+  "materials": [
+    {
+      "material": "aluminum",
+      "vertices": 1197,
+      "triangles": 2104
+    },
+    {
+      "material": "polished",
+      "vertices": 1577,
+      "triangles": 2904
+    },
+    {
+      "material": "gold_mli",
+      "vertices": 528,
+      "triangles": 800
+    },
+    {
+      "material": "gold_edge",
+      "vertices": 34,
+      "triangles": 64
+    },
+    {
+      "material": "carbon",
+      "vertices": 378,
+      "triangles": 700
+    },
+    {
+      "material": "radiator",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "material": "solar",
+      "vertices": 1440,
+      "triangles": 1080
+    },
+    {
+      "material": "solar2",
+      "vertices": 352,
+      "triangles": 264
+    },
+    {
+      "material": "interconnect",
+      "vertices": 3584,
+      "triangles": 5376
+    },
+    {
+      "material": "optics",
+      "vertices": 84,
+      "triangles": 160
+    }
+  ],
+  "glb_bytes": 416804,
+  "sha256": "554bcceee2c96e92a5869233b3069c66019b955b07163c661daf2f24385938b4",
+  "embedded_images": 2,
+  "validation": "GLB reload, geometry/bounds/finite indices and PBR scalar checks passed"
+}
